@@ -26,6 +26,10 @@ const presentation: Presentation = {
       label: "Github",
       link: "https://github.com/ahmad-fayyaz",
     },
+    {
+      label: "Spotify",
+      link: "https://open.spotify.com/user/31hbf2mdcelqbsmw7cz2dcmrhtkm",
+    }
   ],
 };
 
