@@ -184,7 +184,7 @@ createCollectionToGlobResultMap({
 });
 
 let lookupMap = {};
-lookupMap = {"posts":{"type":"content","entries":{"the-power-of-react-hooks":"/src/content/posts/01-the-power-of-react-hooks copy.md","untitled":"/src/content/posts/02-untitled.md"}}};
+lookupMap = {"posts":{"type":"content","entries":{"untitled":"/src/content/posts/02-untitled.md","the-power-of-react-hooks":"/src/content/posts/01-the-power-of-react-hooks copy.md"}}};
 
 function createGlobLookup(glob) {
 	return async (collection, lookupId) => {

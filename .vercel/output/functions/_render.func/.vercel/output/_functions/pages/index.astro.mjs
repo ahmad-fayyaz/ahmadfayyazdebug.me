@@ -1,7 +1,7 @@
 /* empty css                                 */
 import { c as createAstro, a as createComponent, r as renderTemplate, m as maybeRenderHead, d as addAttribute, s as spreadAttributes, b as renderComponent, F as Fragment, u as unescapeHTML } from '../chunks/astro/server_FHoWPl6U.mjs';
 import 'kleur/colors';
-import { p as presentation, f as formatDate, M as MAP_COLOR_VARIANT_TO_TEXT, t as theme, g as getCollection, $ as $$Layout } from '../chunks/formatDate_CBU2GArB.mjs';
+import { p as presentation, f as formatDate, M as MAP_COLOR_VARIANT_TO_TEXT, t as theme, g as getCollection, $ as $$Layout } from '../chunks/formatDate_ByvU0h7Z.mjs';
 import { $ as $$Image } from '../chunks/_astro_assets_DnQOBNCH.mjs';
 import 'clsx';
 export { renderers } from '../renderers.mjs';
