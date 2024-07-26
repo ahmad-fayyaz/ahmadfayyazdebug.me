@@ -7,10 +7,21 @@ export type Project = {
 
 const projects: Project[] = [
   {
-    title: "GoFundMe Subsciption",
-    techs: ["Django", "React", "Stripe"],
-    link: "https://puppetfactory.app/",
-  }
+    title: "LibLab Main Website",
+    techs: ["ReactJs", "Tailwind", "ViteJs"],
+    link: "https://github.com/ahmad-fayyaz/LibLabMain",
+  },
+  {
+    title: "GoFundMe API",
+    techs: ["Django", "Django Rest API", "NextJs"],
+    link: "https://github.com/ahmad-fayyaz/gofundmeAPI",
+  },
+  {
+    title: "Swarthmore Immersive Realities Documentation",
+    techs: ["ReactJs", "VueJs"],
+    link: "https://github.com/ahmad-fayyaz/docsLibLab",
+  },
+  
 ];
 
 export default projects;
