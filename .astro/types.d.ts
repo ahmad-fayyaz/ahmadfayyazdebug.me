@@ -125,22 +125,14 @@ declare module 'astro:content' {
 	>;
 
 	type ContentEntryMap = {
-		"posts": {
-"01-the-power-of-react-hooks copy.md": {
-	id: "01-the-power-of-react-hooks copy.md";
-  slug: "the-power-of-react-hooks";
+		"posts": Record<string, {
+  id: string;
+  slug: string;
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"02-untitled.md": {
-	id: "02-untitled.md";
-  slug: "untitled";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-};
+  data: InferEntrySchema<"posts">;
+  render(): Render[".md"];
+}>;
 
 	};
 
